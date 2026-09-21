@@ -1,0 +1,33 @@
+header {
+    background-color: #cccccc;
+}
+.caixa {
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+}
+nav {
+position: absolute;
+top: 129px; 
+right: 0px;
+}
+nav li {
+    display: inline-block;
+    margin: 0 0 0 15px;
+}
+nav a {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #c78c19; 
+    text-decoration: underline;
+}
+footer {
+    background-image: url(./img/bg.jpg);
+    text-align: center;
+    color: white;
+}
