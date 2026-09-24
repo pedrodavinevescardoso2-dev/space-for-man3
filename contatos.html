@@ -23,21 +23,43 @@
     
    <main>
 
-    <form action="" method=""></form>
+    <form action="">
 
         <label for="nome">Nome e Sobrenome</label>
-        <input type="text" name="nome" placeholder="Nome e Sobrenome" id="nome">
+        <input type="text"  placeholder="Nome e Sobrenome" id="nome" class="inputs-padrao" required>
 
         <label for="email">E-mail</label>
-        <input type="email" name="email" placeholder="E-mail" id="email">
+        <input type="email"  placeholder="seuemail@dominio.com" id="email" class="inputs-padrao" required >
+        
+        <label for="telefone">Telefone</label>
+        <input type="tel"  placeholder="(99) 99999-9999" id="telefone" class="inputs-padrao" required >
 
-           <label for="telefone">Telefone</label>
-        <input type="tel" name="telefone" placeholder="Telefone" id="telefone">
-
-       
         <label for="mensagem">Mensagem</label>
-        <textarea name="mensagem" placeholder="Digite sua mensagem aqui..." id="mensagem"></textarea>
-        <input type="submit" value="Enviar">
+        <textarea  id="mensagem" cols="67" rows="10" placeholder="Mensagem"></textarea>
+
+        <legend>Como prefere o nosso contato?</legend>
+
+        <label for="radio-email"><input type="radio" name="" id="radio-email">e-mail</label>
+        
+
+        <label for="radio-telefone"><input type="radio" name="" id="radio-telefone">Telefone</label>
+        
+
+        <label for="radio-whatsapp"><input type="radio" name="" id="radio-whatsapp">Whatsapp</label>
+
+        <legend>Qual horário prefere ser atendido?</legend>
+        <select name="" id="">
+            <option value="">Manhã</option>
+            <option value="">Tarde</option>
+            <option value="">Noite</option>
+        </select>
+
+        <label for="checkbox"><input type="checkbox" name="" id="checkbox" class="checkbox">Gostaria de receber as nossas novidades e promoções por e-mail?</label>
+
+
+        <input type="submit" value="Enviar" id="enviar">
+       
+        
       
    </form>
    </main>

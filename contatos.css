@@ -26,6 +26,36 @@ nav a:hover {
     color: #c78c19; 
     text-decoration: underline;
 }
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+form {
+    margin: 40px 0;
+}
+form label {
+    display: block;
+    margin: 0 0 10px 0;
+    font-size: 20px;
+}
+
+.mensagem {
+    display: block;
+    margin: 0 0 10px 0;
+    font-size: 10px 20px;
+    width: 50%;
+   
+}
+.inputs-padrao { 
+    display:block;
+    margin: 0 0 20px 0;
+    padding: 10px 20px;
+    width: 50%;
+}
+.checkbox {
+    display: block;
+    margin: 20px 0;
+}
 footer {
     background-image: url(./img/bg.jpg);
     text-align: center;
