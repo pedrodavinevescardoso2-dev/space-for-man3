@@ -33,7 +33,7 @@ main {
 form {
     margin: 40px 0;
 }
-form label {
+form label, form legend {
     display: block;
     margin: 0 0 10px 0;
     font-size: 20px;
@@ -55,6 +55,21 @@ form label {
 .checkbox {
     display: block;
     margin: 20px 0;
+}
+.enviar {
+   width: 50%;
+   padding: 15px 0;
+   background-color: #af7603;
+   color: white;
+   font-weight: bold;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: 0.8s;
+}
+.enviar:hover{
+    background-color: darkorange;
+    transform: rotate(360deg) scale(1.2);
 }
 footer {
     background-image: url(./img/bg.jpg);
