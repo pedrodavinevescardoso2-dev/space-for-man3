@@ -1,0 +1,78 @@
+header {
+    background-color: #cccccc;
+}
+.caixa {
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+}
+nav {
+position: absolute;
+top: 129px; 
+right: 0px;
+}
+nav li {
+    display: inline-block;
+    margin: 0 0 0 15px;
+}
+nav a {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #c78c19; 
+    text-decoration: underline;
+}
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+form {
+    margin: 40px 0;
+}
+form label, form legend {
+    display: block;
+    margin: 0 0 10px 0;
+    font-size: 20px;
+}
+
+.mensagem {
+    display: block;
+    margin: 0 0 10px 0;
+    font-size: 10px 20px;
+    width: 50%;
+   
+}
+.inputs-padrao { 
+    display:block;
+    margin: 0 0 20px 0;
+    padding: 10px 20px;
+    width: 50%;
+}
+.checkbox {
+    display: block;
+    margin: 20px 0;
+}
+.enviar {
+   width: 50%;
+   padding: 15px 0;
+   background-color: #af7603;
+   color: white;
+   font-weight: bold;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: 0.8s;
+}
+.enviar:hover{
+    background-color: darkorange;
+    transform: rotate(360deg) scale(1.2);
+}
+footer {
+    background-image: url(./img/bg.jpg);
+    text-align: center;
+    color: white;
+}
